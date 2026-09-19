@@ -1,0 +1,19 @@
+{
+  "schema": "comfyui-workflow-dependency-snapshot/v1",
+  "comfyui": {
+    "repository": "https://github.com/comfyanonymous/ComfyUI",
+    "commit": "b2da2b4247921dbd5410163f0f6bd0b741d1e377",
+    "version": "v0.35.0-42-gb2da2b42"
+  },
+  "nodes": [
+    {"name":"ComfyUI-MiniMax-H3-PDD-Acc","repository":"https://github.com/phanhieu01/ComfyUI-MiniMax-H3-PDD-Acc","commit":"8e23e9501a39e6290e1112bf051a5ed63889b58d","classification":"modified/fork"},
+    {"name":"ComfyUI-MiniMax-H3-Reference-Manager","repository":"https://github.com/phanhieu01/ComfyUI-MiniMax-H3-Reference-Manager","commit":"138b0d88b8f36d94f346b82527848f5e5e1c1539","classification":"owned"},
+    {"name":"ComfyUI-PhaseScale","repository":"https://github.com/phanhieu01/ComfyUI-PhaseScale","commit":"8b61cd6c7d2db0d5252db34a3665be5507779615","classification":"owned"},
+    {"name":"rgthree-comfy","repository":"https://github.com/rgthree/rgthree-comfy","commit":"2c5342a8cb0eaecaabf61435a5f37dd594c510ba","classification":"original"},
+    {"name":"ComfyUI-KJNodes","repository":"https://github.com/kijai/ComfyUI-KJNodes","commit":"e27a505b3ba6ce42687fe00500deda103d9d6071","classification":"original"},
+    {"name":"ComfyUI-MiniMax-H3-Image-Studio","repository":"https://github.com/astropuzzo/ComfyUI-MiniMax-H3-Image-Studio","commit":"47dea30d0bf07e7340ef0cc97e8174a15edf55b9","classification":"original"},
+    {"name":"ComfyUI-VideoHelperSuite","repository":"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite","commit":"4ee72c065db22c9d96c2427954dc69e7b908444b","classification":"original"},
+    {"name":"Comfyui_Minimax_h3_latent_Upscaler","repository":"https://github.com/LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler","commit":"40316cf008b2fd8663263270669eb4da23f89d2c","classification":"original"},
+    {"name":"ComfyUI-Workflow-Encrypt","repository":"https://github.com/jtydhr88/ComfyUI-Workflow-Encrypt","commit":"5ec45fdac73d8bd6d732af76bbe81c94413b3e36","classification":"original"}
+  ]
+}

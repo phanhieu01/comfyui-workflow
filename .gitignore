@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+output/
+cache/
+*.mp4
+*.wav
+*.png
+*.jpg
+*.safetensors
+*.pth
+*.ckpt
