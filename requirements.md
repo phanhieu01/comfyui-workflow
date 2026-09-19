@@ -2,6 +2,8 @@
 
 Commit được pin để workflow có thể tái lập. Các mục **modified/owned** là code đã chỉnh hoặc repo do `phanhieu01` sở hữu; các mục **original** chỉ dùng đúng upstream commit.
 
+PDD fork được tạo từ upstream `https://github.com/Jalen-Brunson/ComfyUI-MiniMax-H3-PDD-Acc`; workflow dùng fork `phanhieu01` để giữ patch tương thích graph cũ.
+
 | Phân loại | Chức năng | Repository | Commit | Thư mục cài đặt |
 |---|---|---|---|---|
 | modified/fork | MiniMax H3 PDD Acc, PDD scheduler, SigmaShift | https://github.com/phanhieu01/ComfyUI-MiniMax-H3-PDD-Acc | `8e23e9501a39e6290e1112bf051a5ed63889b58d` | `custom_nodes/ComfyUI-MiniMax-H3-PDD-Acc` |
@@ -28,4 +30,3 @@ Lặp lại `git clone`/`git checkout <commit>` cho các dòng còn lại. Nếu
 ## Python extras
 
 Các node trên tự khai báo dependencies trong repo. Với cài đặt tối thiểu thường cần `opencv-python`, `imageio-ffmpeg`, `cryptography`, `Pillow`, `color-matcher`, `matplotlib` và `mss` theo requirements của VHS/KJNodes/Workflow-Encrypt. ComfyUI Manager có thể cài tự động; không pin lại toàn bộ môi trường Python vào repo workflow.
-
